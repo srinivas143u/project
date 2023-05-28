@@ -1,0 +1,86 @@
+#login{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.align{
+    margin-left: 87px;
+}
+.form-group{
+    margin-top: 20px;
+}
+.form-group label{
+    font-size: 25px;
+    color: white;
+}
+.button1{
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+#register{
+ background-image: url(image/pexels-julia-m-cameron-4144923.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 54.5rem;
+}
+#forms{
+    margin: 15vh auto 0 auto;
+    box-shadow: 0 4px 30px rgba(20, 19, 19, 0.788);
+backdrop-filter: blur(2.0px);
+    width: 600px;
+    height: 650px;
+    border-radius: 30px;
+}
+.input-group{
+    flex-direction: column;
+    padding: 15px;
+}
+.input-group label{
+    color: yellow;
+}
+.input-group input[type=text]{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+.input-group select{
+    width: 100%;
+    height: 40px;
+    border: 4px solid yellow;
+}
+.input-group input[type=radio]{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+}
+.input-group input{
+    margin-top: 5px;
+    border: 4px solid yellow;
+}
+.input-group label{
+    font-size: larger;
+    font-weight: bold;
+}
+.input-group input:focus{
+    outline: 0;
+}
+.input-group select:focus{
+    outline: 0;
+}
+.btn-brand{
+    background-color: lightskyblue;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border: 0px;
+}
